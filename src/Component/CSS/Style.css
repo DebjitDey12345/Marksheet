@@ -1,0 +1,88 @@
+
+body{
+    background-color: #def7a3;
+  }
+  .marksheet-container {
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Header styles */
+  .marksheet-header {
+    text-align: center;
+  }
+  
+  .marksheet-header h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .marksheet-header h2 {
+    background-color: #28a745;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .marksheet-header h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Student info section styles */
+  .student-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .student-info p {
+    margin: 0;
+    font-size: 1em;
+  }
+  
+  /* Table styles */
+  .marksheet-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .marksheet-table th, .marksheet-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .marksheet-table th {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .marksheet-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .marksheet-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Result section styles */
+  .result-section {
+    text-align: right;
+    color: #dc3545;
+  }
+  
+  .result-section p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
